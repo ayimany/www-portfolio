@@ -1,9 +1,10 @@
 'use client'
 
 import Navbar from "@/components/navbar/Navbar";
+import type { Skill, SimpleSkill } from "@/types";
 
-function SkillCard({ skill }) {
-    const getExpertiseLevel = (level) => {
+function SkillCard({ skill }: { skill: Skill }) {
+    const getExpertiseLevel = (level: number): string => {
         if (level >= 90) return 'Expert';
         if (level >= 75) return 'Advanced';
         if (level >= 50) return 'Proficient';
@@ -11,7 +12,7 @@ function SkillCard({ skill }) {
         return 'Beginner';
     };
 
-    const getProgressColor = (level) => {
+    const getProgressColor = (level: number): string => {
         if (level >= 75) return 'bg-green-500';
         if (level >= 50) return 'bg-blue-500';
         if (level >= 25) return 'bg-yellow-500';
@@ -46,7 +47,7 @@ function SkillCard({ skill }) {
     );
 }
 
-function FutureSkillCard({ skill }) {
+function FutureSkillCard({ skill }: { skill: SimpleSkill }) {
     return (
         <div className="bg-white rounded-lg p-4 shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 cursor-pointer flex flex-col items-center justify-center">
             <img
@@ -59,7 +60,7 @@ function FutureSkillCard({ skill }) {
     );
 }
 
-function SkillsSection({ title, skills }) {
+function SkillsSection({ title, skills }: { title: string; skills: Skill[] }) {
     return (
         <div className="mb-12">
             <h2 className="text-3xl font-bold text-slate-800 mb-6">{title}</h2>
@@ -72,7 +73,7 @@ function SkillsSection({ title, skills }) {
     );
 }
 
-function FutureSkillsSection({ title, skills }) {
+function FutureSkillsSection({ title, skills }: { title: string; skills: SimpleSkill[] }) {
     return (
         <div className="mb-12">
             <h2 className="text-3xl font-bold text-slate-800 mb-6">{title}</h2>
@@ -86,7 +87,19 @@ function FutureSkillsSection({ title, skills }) {
 }
 
 export default function SkillsPage() {
-    const skillsData = {
+    const skillsData: {
+        programmingLanguages: Skill[];
+        tools: Skill[];
+        programs: Skill[];
+        documenting: Skill[];
+        oses: Skill[];
+        frameworks: Skill[];
+        machinery: Skill[];
+        microcontrollers: Skill[];
+        futureSkillsMaster: SimpleSkill[];
+        futureSkillsImprove: SimpleSkill[];
+        futureSkillsLearn: SimpleSkill[];
+    } = {
         programmingLanguages: [
             { name: 'C++', level: 80, image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },
             { name: 'Kotlin', level: 80, image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg' },

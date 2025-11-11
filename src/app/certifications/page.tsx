@@ -1,7 +1,8 @@
 // Certification Card Component
 import Navbar from "@/components/navbar/Navbar";
+import type { Certification, WantedCertification } from "@/types";
 
-function CertificationCard({ certification }) {
+function CertificationCard({ certification }: { certification: Certification }) {
     return (
         <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 cursor-pointer flex flex-col">
             {/* Centered Image */}
@@ -54,7 +55,7 @@ function CertificationCard({ certification }) {
 }
 
 // Wanted Certification Card Component (simplified)
-function WantedCertificationCard({ certification }) {
+function WantedCertificationCard({ certification }: { certification: WantedCertification }) {
     return (
         <div className="bg-white rounded-lg p-4 shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 cursor-pointer flex items-center gap-4">
             <img
@@ -76,7 +77,7 @@ function WantedCertificationCard({ certification }) {
 
 // Main Certifications Page Component
 export default function CertificationsPage() {
-    const certificationsData = [
+    const certificationsData: Certification[] = [
         {
             title: 'Six Sigma Green Belt',
             image: 'https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/166144976',
@@ -120,27 +121,22 @@ export default function CertificationsPage() {
             ]
         },
         {
-            title: 'LIDERA Program',
-            image: '/pictures/first-dive-cert.svg',
-                issuer: 'Monterrey Institute of Technology and Higher Education',
-            issueDate: 'January 2024',
+            title: 'LIDERA Program Participation',
+            image: 'https://javier.rodriguez.org.mx/itesm/escudo/escudo-itesm-black.svg',
+            issuer: 'Monterrey Institute of Technology and Higher Education',
+            issueDate: 'June 2022',
             expirationDate: null,
-            description: 'As a FIRST Alumni and previous Programming & Electronics Head of Department, I have decided to stay and support my team in future competitions through mentorship, providing valuable resources and insight for future projects.',
+            description: 'Selected from just 2 people per campus, LIDERA participants are trained in high-engagement leadership skills and team collaboration activities throughout the course of several days.',
             skills: [
-                'Algorithm Design',
-                'Laboratory Robotics',
-                'Department management',
-                'Robot Programming',
-                'Computer Vision',
                 'Leadership',
-                'Professional Mentoring',
-                'Educational Leadership'
+                'Educational Leadership',
+                'Teamwork',
             ]
         },
     ];
 
     // Wanted certifications data
-    const wantedCertificationsData = [
+    const wantedCertificationsData: WantedCertification[] = [
         {
             title: 'Advanced Vision Applications with DL & Transformers',
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg',
