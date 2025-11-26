@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/api/:path*", "destination": "https://api.ayimany.tech/:path*", "permanent": false }
+  ]
+}

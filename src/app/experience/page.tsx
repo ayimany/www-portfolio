@@ -128,7 +128,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Championship",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2025.png",
             "startDate": "April 2025",
             "endDate": "April 2025",
             "country": "United States",
@@ -137,7 +137,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Regional Competition",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2025.png",
             "startDate": "March 2025",
             "endDate": "March 2025",
             "country": "United States",
@@ -146,7 +146,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Regional Competition",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2025.png",
             "startDate": "March 2025",
             "endDate": "March 2025",
             "country": "Mexico",
@@ -164,7 +164,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Off-Season Competition",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2024.png",
             "startDate": "October 2024",
             "endDate": "October 2024",
             "country": "Mexico",
@@ -173,7 +173,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Championship",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2024.png",
             "startDate": "April 2024",
             "endDate": "April 2024",
             "country": "United States",
@@ -182,7 +182,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Regional Competition",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2024.png",
             "startDate": "March 2024",
             "endDate": "March 2024",
             "country": "Mexico",
@@ -191,7 +191,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Regional Competition",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2024.png",
             "startDate": "March 2024",
             "endDate": "March 2024",
             "country": "Mexico",
@@ -200,7 +200,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Off-Season Competition (All-Star)",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2023.png",
             "startDate": "September 2023",
             "endDate": "September 2023",
             "country": "Mexico",
@@ -209,7 +209,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Regional Competition (Port Hueneme)",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2023.png",
             "startDate": "March 2023",
             "endDate": "March 2023",
             "country": "United States",
@@ -218,7 +218,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Regional Competition",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2023.png",
             "startDate": "February 2023",
             "endDate": "February 2023",
             "country": "Mexico",
@@ -227,7 +227,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Off-Season Competition",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2022.png",
             "startDate": "October 2022",
             "endDate": "October 2022",
             "country": "Mexico",
@@ -245,7 +245,7 @@ export default function ExperiencePage() {
         },
         {
             "title": "FIRST Robotics Competition – Regional Competition",
-            "logo": "https://my.firstinspires.org/Dashboard/Content/Images/Logo_Primary.svg",
+            "logo": "https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2022.png",
             "startDate": "March 2022",
             "endDate": "March 2022",
             "country": "Mexico",
