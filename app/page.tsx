@@ -1,65 +1,176 @@
-import Image from "next/image";
+import {Header} from "@/components/layout/Header";
+import {Footer} from "@/components/layout/Footer";
+import {Container} from "@/components/layout/Container";
+import {Section} from "@/components/layout/Section";
+import {Hero} from "@/components/landing/Hero";
+import {SectionPreview} from "@/components/landing/SectionPreview";
+import {SimpleCard, SimpleGrid} from "@/components/common/SimpleGrid";
+import {ExperienceCard} from "@/components/cards/ExperienceCard";
+import {CourseCard, EducationCard} from "@/components/cards/EducationCard";
+import {SkillCard} from "@/components/cards/SkillCard";
+import {CertificationCard} from "@/components/cards/CertificationCard";
+import {ProjectCard} from "@/components/cards/ProjectCard";
+import {ServiceCard} from "@/components/cards/ServiceCard";
+import {BackgroundPattern} from "@/components/ui/BackgroundPattern";
+
+import {
+    getFeaturedProjects,
+    getFeaturedServices,
+    getLatestCertifications,
+    getLatestCourses,
+    getLatestEducation,
+    getLatestExperiences,
+    getTopSkills,
+} from "@/lib/data";
 
 export default function Home() {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    const experiences = getLatestExperiences(2);
+    const education = getLatestEducation(1);
+    const courses = getLatestCourses(1);
+    const skills = getTopSkills(14);
+    const certifications = getLatestCertifications(3);
+    const projects = getFeaturedProjects();
+    const services = getFeaturedServices();
+
+    return (
+        <div className="min-h-screen flex flex-col relative">
+            <BackgroundPattern variant="grid"/>
+            <Header/>
+
+            <main className="flex-1 relative">
+                <Hero/>
+
+                <Section id="sections" spacing="lg">
+                    <Container>
+                        <SimpleGrid>
+                            {/* Experience */}
+                            <SimpleCard>
+                                <SectionPreview
+                                    section="experience"
+                                    title="Experience"
+                                    subtitle={`${experiences.length}+ positions`}
+                                    className="h-full"
+                                >
+                                    <div className="space-y-3">
+                                        {experiences.map((exp, i) => (
+                                            <ExperienceCard
+                                                key={i}
+                                                experience={exp}
+                                                variant="compact"
+                                            />
+                                        ))}
+                                    </div>
+                                </SectionPreview>
+                            </SimpleCard>
+
+                            {/* Education */}
+                            <SimpleCard>
+                                <SectionPreview
+                                    section="education"
+                                    title="Education"
+                                    className="h-full"
+                                >
+                                    <div className="space-y-3">
+                                        {education.map((edu, i) => (
+                                            <EducationCard
+                                                key={i}
+                                                education={edu}
+                                                variant="compact"
+                                            />
+                                        ))}
+                                    </div>
+                                    <div className="mt-3 space-y-3">
+                                        {courses.map((crs, i) => (
+                                            <CourseCard
+                                                key={i}
+                                                course={crs}
+                                                variant="compact"
+                                            />
+                                        ))}
+                                    </div>
+                                </SectionPreview>
+                            </SimpleCard>
+
+                            {/* Skills */}
+                            <SimpleCard>
+                                <SectionPreview
+                                    section="skills"
+                                    title="Skills"
+                                    subtitle={`${skills.length}+ technologies`}
+                                    className="h-full"
+                                >
+                                    <div className="grid grid-cols-2 gap-2">
+                                        {skills.map((skill, i) => (
+                                            <SkillCard key={i} skill={skill} variant="compact"/>
+                                        ))}
+                                    </div>
+                                </SectionPreview>
+                            </SimpleCard>
+
+                            {/* Projects */}
+                            <SimpleCard>
+                                <SectionPreview
+                                    section="projects"
+                                    title="Projects"
+                                    className="h-full"
+                                >
+                                    <div className="space-y-3">
+                                        {projects.map((project, i) => (
+                                            <ProjectCard
+                                                key={i}
+                                                project={project}
+                                                variant="compact"
+                                            />
+                                        ))}
+                                    </div>
+                                </SectionPreview>
+                            </SimpleCard>
+
+                            {/* Services */}
+                            <SimpleCard>
+                                <SectionPreview
+                                    section="services"
+                                    title="Services"
+                                    subtitle="Available for hire"
+                                    className="h-full"
+                                >
+                                    <div className="space-y-3">
+                                        {services.slice(0, 2).map((service, i) => (
+                                            <ServiceCard
+                                                key={i}
+                                                service={service}
+                                                variant="compact"
+                                            />
+                                        ))}
+                                    </div>
+                                </SectionPreview>
+                            </SimpleCard>
+
+                            {/* Certifications */}
+                            <SimpleCard>
+                                <SectionPreview
+                                    section="certifications"
+                                    title="Certifications"
+                                    subtitle={`${certifications.length}+ credentials`}
+                                    className="h-full"
+                                >
+                                    <div className="space-y-3">
+                                        {certifications.map((cert, i) => (
+                                            <CertificationCard
+                                                key={i}
+                                                certification={cert}
+                                                variant="compact"
+                                            />
+                                        ))}
+                                    </div>
+                                </SectionPreview>
+                            </SimpleCard>
+                        </SimpleGrid>
+                    </Container>
+                </Section>
+            </main>
+
+            <Footer/>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+    );
 }

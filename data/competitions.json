@@ -1,0 +1,217 @@
+[
+  {
+    "host": "ActInSpace, ITESM, ESA, CNES, Airbus",
+    "name": "ActInSpace Hackathon",
+    "location": "Querétaro, Mexico",
+    "startDate": "2026-01",
+    "description": "International hackathon focused on space and aerospace innovation.",
+    "highlights": [
+      "Conceptualized a comprehensive waste recycling pipeline for space environments.",
+      "Authored a white paper detailing technical viability and process flow.",
+      "Leveraged open patents from ESA, Airbus, and CNES to ensure compliance with international space regulations."
+    ],
+    "technologies": ["React", "Technical Writing", "Business Development", "Space Law"],
+    "type": "hackathon"
+  },
+  {
+    "host": "ITESM, TecACM, gategroup, CapitalOne, Banorte",
+    "name": "HackMTY - Latin America's Largest Hackathon",
+    "location": "Monterrey, Mexico",
+    "startDate": "2025-10",
+    "description": "36-hour hackathon developing high-tech solutions for major industry brands.",
+    "highlights": [
+      "Engineered a machine vision solution for aviation catering verification.",
+      "Trained a custom AI model for precise food product categorization.",
+      "Designed and deployed an employee-facing dashboard for real-time quality control and error correction."
+    ],
+    "technologies": ["Python", "Computer Vision", "UI/UX Design", "ConvexDB", "Machine Vision"],
+    "type": "hackathon"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - Houston Championship",
+    "location": "Texas, USA",
+    "startDate": "2025-04",
+    "description": "World Championship robotics event.",
+    "highlights": [
+      "Provided technical mentorship to a top-tier international team.",
+      "Diagnosed and resolved critical CAN bus failures for partner teams under time constraints.",
+      "Supervised four technical leads in the calibration and operation of a semi-autonomous robot."
+    ],
+    "technologies": ["Robotics", "CAN Bus", "Team Leadership", "System Diagnostics"],
+    "type": "robotics"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - Phantom Lakes Regional",
+    "location": "Wisconsin, USA",
+    "startDate": "2025-03",
+    "description": "International regional robotics competition.",
+    "highlights": [
+      "Mentored three technical leads in real-time problem solving and crisis management.",
+      "Facilitated the transition to a student-led technical structure.",
+      "Established communication protocols to ensure operational consistency."
+    ],
+    "technologies": ["Mentorship", "Process Improvement", "Technical Communication"],
+    "type": "robotics"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - León Regional",
+    "location": "Guanajuato, Mexico",
+    "startDate": "2025-03",
+    "description": "Regional robotics competition.",
+    "highlights": [
+      "Guided the team to win the 'Engineering Inspiration' award, securing championship qualification.",
+      "Structured mentorship strategies to foster knowledge transfer.",
+      "Focused on enabling student autonomy and technical proficiency."
+    ],
+    "technologies": ["Strategic Planning", "Student Mentorship","Education", "Robotics"],
+    "type": "robotics"
+  },
+  {
+    "host": "ICPC",
+    "name": "Gran Premio de México",
+    "location": "Monterrey, Mexico",
+    "startDate": "2024-10",
+    "description": "National collegiate programming contest.",
+    "highlights": [
+      "Collaborated in a three-person team to solve complex algorithmic problems.",
+      "Implemented solutions using advanced data structures (graphs, trees) and algorithms.",
+      "Achieved the 79th national ranking among collegiate competitors. An effort, nonetheless."
+    ],
+    "technologies": ["C++", "Algorithms", "Data Structures", "Competitive Programming"],
+    "type": "programming"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - León Off-Season",
+    "location": "Guanajuato, Mexico",
+    "startDate": "2024-10",
+    "description": "Off-season robotics competition.",
+    "highlights": [
+      "Mentored a new technical lead, fostering a project-management approach.",
+      "Coordinated team workflows to transition from individual contribution to technical leadership."
+    ],
+    "technologies": ["Project Management", "Mentoring", "Robotics"],
+    "type": "robotics"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - Houston Championship",
+    "location": "Texas, USA",
+    "startDate": "2024-04",
+    "description": "World Championship robotics event.",
+    "highlights": [
+      "Analyzed advanced robotics systems and implemented robust diagnostic and logging protocols.",
+      "Enhanced system reliability and safety standards through rigorous debugging in a high-stakes environment."
+    ],
+    "technologies": ["Robotics", "C++", "Diagnostics", "Debugging", "Safety Systems"],
+    "type": "robotics"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - Laguna Regional",
+    "location": "Coahuila, Mexico",
+    "startDate": "2024-03",
+    "description": "Regional robotics competition.",
+    "highlights": [
+      "Secured the 'Engineering Inspiration' award through demonstrated technical excellence and community outreach.",
+      "Optimized system consistency to ensure reliable performance under competitive pressure."
+    ],
+    "technologies": ["Robotics", "C++", "Outreach", "System Reliability"],
+    "type": "robotics"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - Sonora Regional",
+    "location": "Sonora, Mexico",
+    "startDate": "2024-03",
+    "description": "Regional robotics competition.",
+    "highlights": [
+      "Engineered a real-time scoring system using analytical geometry and computer vision.",
+      "Achieved consistent on-field performance through advanced autonomous processing.",
+      "Applied complex robotics principles to enhance competitive strategy."
+    ],
+    "technologies": ["Machine Learning", "C++", "Computer Vision", "Real-time Processing", "Robotics"],
+    "type": "robotics"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - All-Star Off-Season",
+    "location": "Monterrey, Mexico",
+    "startDate": "2023-09",
+    "description": "Off-season invitational.",
+    "highlights": [
+      "Executed rapid code refactoring and subsystem modifications.",
+      "Led the team to playoffs with a streamlined chassis design, demonstrating adaptive engineering and problem-solving resilience."
+    ],
+    "technologies": ["Rapid Prototyping", "C++", "Programming", "Robotics"],
+    "type": "robotics"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - Port Hueneme Regional",
+    "location": "California, USA",
+    "startDate": "2023-03",
+    "description": "International regional competition.",
+    "highlights": [
+      "Analyzed high-performance robotics strategies from top-tier international teams.",
+      "Integrated advanced technical concepts into future design iterations."
+    ],
+    "technologies": ["Robotics", "C++", "International Relations", "Strategy"],
+    "type": "robotics"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - Puebla Regional",
+    "location": "Puebla, Mexico",
+    "startDate": "2023-02",
+    "description": "Regional robotics competition.",
+    "highlights": [
+      "Managed technical setbacks through constructive failure analysis.",
+      "Leveraged experience to build resilience and improve future system robustness."
+    ],
+    "technologies": ["Robotics", "C++", "Resilience"],
+    "type": "robotics"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - Puebla Off-Season",
+    "location": "Puebla, Mexico",
+    "startDate": "2022-10",
+    "description": "Off-season competition.",
+    "highlights": [
+      "Managed full-stack programming and electronics integration under strict time limits.",
+      "Delivered reliable technical solutions through rapid improvisation and troubleshooting."
+    ],
+    "technologies": ["Programming", "C++", "Electronics", "Robotics"],
+    "type": "robotics"
+  },
+  {
+    "host": "ITESM",
+    "name": "LIDERA - Leadership Program",
+    "location": "Cuernavaca, Mexico",
+    "startDate": "2022-06",
+    "description": "Selective leadership development program.",
+    "highlights": [
+      "Cultivated skills in teamwork, critical thinking, and personnel management.",
+      "Applied leadership methodologies to guide teams effectively in high-pressure environments."
+    ],
+    "technologies": ["Leadership", "Teamwork", "Critical Thinking"],
+    "type": "leadership"
+  },
+  {
+    "host": "FIRST",
+    "name": "First Robotics Competition - Monterrey Regional",
+    "location": "Monterrey, Mexico",
+    "startDate": "2022-03",
+    "description": "Regional robotics competition.",
+    "highlights": [
+      "Initiated involvement in competitive engineering and automated systems.",
+      "Established a foundation in robotics principles and team-based technical collaboration."
+    ],
+    "technologies": ["Robotics", "C++", "Automated Systems"],
+    "type": "robotics"
+  }
+]

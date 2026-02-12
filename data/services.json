@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Robotics Consulting",
+    "shortDescription": "Expert guidance on robotics system architecture and implementation.",
+    "fullDescription": "Comprehensive consulting services for companies looking to develop or integrate robotics solutions. From concept to deployment, I help teams make informed technical decisions.",
+    "icon": "Cpu",
+    "deliverables": [
+      "System architecture review",
+      "Technology stack recommendations",
+      "Risk assessment and mitigation strategies",
+      "Implementation roadmap"
+    ],
+    "featured": true
+  },
+  {
+    "title": "Custom Robot Development",
+    "shortDescription": "End-to-end development of specialized robotic systems.",
+    "fullDescription": "Design and build custom robotic solutions tailored to your specific needs. From AMRs to manipulation systems, I deliver production-ready robotics platforms.",
+    "icon": "Bot",
+    "deliverables": [
+      "Mechanical design",
+      "Electronics integration",
+      "Software development",
+      "Testing and validation"
+    ],
+    "featured": true
+  },
+  {
+    "title": "Technical Training",
+    "shortDescription": "Hands-on workshops and courses in robotics and automation.",
+    "fullDescription": "Educational programs designed for engineering teams looking to upskill in robotics technologies. Customized curriculum based on your team's needs and goals.",
+    "icon": "GraduationCap",
+    "deliverables": [
+      "Customized curriculum",
+      "Hands-on lab exercises",
+      "Reference materials",
+      "Follow-up support"
+    ]
+  }
+]

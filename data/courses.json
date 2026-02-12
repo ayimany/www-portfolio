@@ -1,0 +1,42 @@
+[
+  {
+    "institution": "La Casa del Control",
+    "degree": "OPTA PLCs and Energy Measuring Systems",
+    "field": "Automation; Industry 4.0",
+    "location": "Queretaro, Mexico",
+    "startDate": "2025-01",
+    "durationDays": 1,
+    "honors": [],
+    "type": "workshop"
+  },
+  {
+    "institution": "MLH",
+    "degree": "Global Hack Week: AI/ML",
+    "field": "Artificial Intelligence; Machine Learning",
+    "location": "Online",
+    "startDate": "2025-11",
+    "durationDays": 7,
+    "honors": [],
+    "type": "bootcamp"
+  },
+  {
+    "institution": "IISE",
+    "degree": "Six Sigma Green Belt",
+    "field": "Industrial Engineering; Quality Systems",
+    "location": "Queretaro, Mexico",
+    "startDate": "2025-11",
+    "durationDays": 3,
+    "honors": [],
+    "type": "certification"
+  },
+  {
+    "institution": "P4H Bionics",
+    "degree": "Webinar - Development of Prothesis and Prosthetic Parts",
+    "field": "Robotics; Biomimetics",
+    "location": "Online",
+    "startDate": "2025-06",
+    "durationDays": 1,
+    "honors": ["Awarded a 90% scholarship"],
+    "type": "webinar"
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "name": "C++",
+    "category": "programming",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Object-oriented programming",
+      "Smart pointers",
+      "Static & Dynamic libraries",
+      "Template Metaprogramming",
+      "C++ standard library"
+    ]
+  },
+  {
+    "name": "C",
+    "category": "programming",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Low-level programming",
+      "Pointer arithmetic",
+      "Static & Dynamic libraries",
+      "C standard library"
+    ]
+  },
+  {
+    "name": "Python",
+    "category": "programming",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Object-oriented programming",
+      "Async/await patterns",
+      "Package development",
+      "Python standard library"
+    ]
+  },
+  {
+    "name": "Kotlin",
+    "category": "programming",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Object-oriented programming",
+      "Functional programming",
+      "Kotlin Multiplatform",
+      "Kotlin standard library"
+    ]
+  },
+  {
+    "name": "Java",
+    "category": "programming",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Object-oriented programming",
+      "Java standard library"
+    ]
+  },
+  {
+    "name": "Bash/Fish",
+    "category": "programming",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Shell scripting",
+      "Pipes and redirections"
+    ]
+  },
+  {
+    "name": "Rust",
+    "category": "programming",
+    "comfort": "exploring",
+    "knowledgePoints": [
+      "Ownership & borrowing",
+      "Error handling with Result",
+      "Cargo ecosystem"
+    ]
+  },
+  {
+    "name": "TypeScript",
+    "category": "programming",
+    "comfort": "exploring",
+    "knowledgePoints": [
+      "Type system & generics",
+      "React development",
+      "Node.js backends"
+    ]
+  },
+  {
+    "name": "Lua",
+    "category": "programming",
+    "comfort": "new",
+    "knowledgePoints": [
+      "Basic scripting"
+    ]
+  },
+  {
+    "name": "MATLAB",
+    "category": "programming",
+    "comfort": "new",
+    "knowledgePoints": [
+      "standard scripting",
+      "basic matrix handling"
+    ]
+  },
+  {
+    "name": "Computer Vision",
+    "category": "robotics",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Object detection",
+      "Image processing",
+      "Camera calibration"
+    ]
+  },
+  {
+    "name": "Motion Planning",
+    "category": "robotics",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Path planning algorithms",
+      "Obstacle avoidance",
+      "Trajectory optimization"
+    ]
+  },
+  {
+    "name": "Embedded Systems",
+    "category": "hardware",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Bare-metal programming",
+      "I2C/SPI protocols",
+      "Interrupt handling"
+    ]
+  },
+  {
+    "name": "Raspberry PI",
+    "category": "hardware",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "AI/ML data processing",
+      "Hailo-8 integration",
+      "Networking and data transmission"
+    ]
+  },
+  {
+    "name": "Arduino/ESP32",
+    "category": "hardware",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Sensor integration",
+      "WiFi/BLE connectivity",
+      "Motor control",
+      "Power management"
+    ]
+  },
+  {
+    "name": "PCB Design",
+    "category": "hardware",
+    "comfort": "exploring",
+    "knowledgePoints": [
+      "Schematic capture",
+      "2-layer board layouts",
+      "KiCad workflows"
+    ]
+  },
+  {
+    "name": "FDM 3D Printing",
+    "category": "mechanical",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "FDM machine configuration",
+      "Time & material optimization",
+      "Bambu Lab printers"
+    ]
+  },
+  {
+    "name": "CAD",
+    "category": "mechanical",
+    "comfort": "exploring",
+    "knowledgePoints": [
+      "Parametric design",
+      "Boolean operations",
+      "Multi-part assemblies"
+    ]
+  },
+  {
+    "name": "Git",
+    "category": "tools",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Branching strategies",
+      "Rebasing & merging",
+      "CI/CD integration",
+      "Collaborative workflows"
+    ]
+  },
+  {
+    "name": "Linux",
+    "category": "tools",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "System administration",
+      "Shell scripting",
+      "Package management",
+      "Service configuration",
+      "Systemd integration"
+    ]
+  },
+  {
+    "name": "SSH",
+    "category": "tools",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Secure system connections",
+      "Protocol Configuration"
+    ]
+  },
+  {
+    "name": "CMake",
+    "category": "tools",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Multi-stage builds",
+      "Library fetching and linking"
+    ]
+  },
+  {
+    "name": "NPM",
+    "category": "tools",
+    "comfort": "exploring",
+    "knowledgePoints": [
+      "Development & production builds",
+      "Package management"
+    ]
+  },
+  {
+    "name": "OpenCV",
+    "category": "frameworks",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Image transformations",
+      "Feature detection",
+      "Video processing",
+      "Real-time pipelines"
+    ]
+  },
+  {
+    "name": "WPILib",
+    "category": "frameworks",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "Robot framework integration",
+      "Control strategy implementation"
+    ]
+  },
+  {
+    "name": "Discord.js",
+    "category": "frameworks",
+    "comfort": "comfortable",
+    "knowledgePoints": [
+      "App integration",
+      "Bot development",
+      "Asynchronous operations",
+      "Flake management"
+    ]
+  },
+  {
+    "name": "Next.js",
+    "category": "frameworks",
+    "comfort": "exploring",
+    "knowledgePoints": [
+      "Static & Dynamic sites",
+      "Client & Server-side components",
+      "i18n internationalization",
+      "Data-driven rendering"
+    ]
+  },
+  {
+    "name": "FastAPI",
+    "category": "frameworks",
+    "comfort": "exploring",
+    "knowledgePoints": [
+      "HTTP endpoints",
+      "Data reception & emission"
+    ]
+  },
+  {
+    "name": "OpenGL",
+    "category": "frameworks",
+    "comfort": "new",
+    "knowledgePoints": [
+      "Shader development",
+      "Basic geometry rendering"
+    ]
+  },
+  {
+    "name": "Vulkan",
+    "category": "frameworks",
+    "comfort": "new",
+    "knowledgePoints": [
+      "Basic geometry rendering"
+    ]
+  }
+]

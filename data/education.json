@@ -1,0 +1,22 @@
+[
+  {
+    "institution": "ITESM",
+    "degree": "Bachelor's in Robotics & Digital Systems",
+    "field": "Robotics & Mechanical Engineering",
+    "location": "Querétaro, Mex",
+    "startDate": "2024-09",
+    "endDate": null,
+    "honors": ["GPA: 3.9/4.0"],
+    "type": "degree"
+  },
+  {
+    "institution": "UCSD",
+    "degree": "Research Assistant",
+    "field": "Genomics, Genetics",
+    "location": "San Diego, CA",
+    "startDate": "2023-06",
+    "endDate": "2015-05",
+    "honors": [],
+    "type": "research"
+  }
+]

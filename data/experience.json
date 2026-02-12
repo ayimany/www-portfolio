@@ -1,0 +1,45 @@
+[
+  {
+    "company": "",
+    "role": "Freelancer",
+    "location": "Querétaro, México",
+    "startDate": "2026-01",
+    "endDate": null,
+    "description": "Still a student. Offering my services as a highly skilled individual in 3D printing, software development and robotic integration.",
+    "highlights": [
+      "Self-hosted service management.",
+      "Implementation of precise automated quoting software for various techical services.",
+      "Server architecture development and maintenance.",
+      "Relational and non-relational database management."
+    ],
+    "technologies": [
+      "Python",
+      "C++",
+      "3D Printing",
+      "Entrepreneurship",
+      "Customer Relations",
+      "MariaDB"
+    ],
+    "type": "freelance"
+  },
+  {
+    "company": "Gymrek Lab, CAST Genomics",
+    "role": "Research Assistant",
+    "location": "San Diego, CA",
+    "startDate": "2023-06",
+    "endDate": "2023-07",
+    "description": "Collaborated with doctoral students to implement software testing routines for complex genetic trait analysis software.",
+    "highlights": [
+      "Implemented several python tests in complex software.",
+      "Proposed a tree-based dynamic programming approach to reduce processing time to transform sets of haplotypes.",
+      "Discovered new python technologies and gained basic research experience."
+    ],
+    "technologies": [
+      "Python",
+      "Poetry",
+      "Software Testing",
+      "Genetic Algorithms"
+    ],
+    "type": "research"
+  }
+]
