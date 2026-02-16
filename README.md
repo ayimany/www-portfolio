@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Pagei
 
-## Getting Started
+Hey there. This is my corporate style portfolio page.
 
-First, run the development server:
+## This page has no soul
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I don't really stand for the writing and style of this page. SEO tends to
+prioritize generic text with a lack of depth.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Why do you want good SEO on a portfolio page?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I raise this question because I guess portfolio pages are meant to be passed
+by word of mouth or links on your work?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Once, a person actually found my webpage on search results and we worked together.
+They were one of the nicest people I've interacted with. Every person counts, so
+if I can go from one to two people or even more, I am down for that.
 
-## Learn More
+Enter at your own risk.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Made with React, Next.js, TailwindCSS.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I am not a web developer, so I was assisted in design and writing by Claude
+Code: it can write effective SEO slop, and it can tank all the HTML I don't
+have time to write. I have other projects that I care about. I inspect and
+correct all the code it generates to ensure that the page isn't flawed or a
+security risk (which would be a whole new level of incompetence for a
+portfolio page).
