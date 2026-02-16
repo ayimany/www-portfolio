@@ -1,13 +1,12 @@
 import Image from "next/image";
 import {Container} from "@/components/layout/Container";
 import ButtonLink from "@/components/ui/Button";
-import {ArrowDown} from "lucide-react";
 
 export function Hero() {
     return (
         <section className="relative min-h-[90vh] flex items-center py-20">
             <Container>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
                     {/* Left: Content */}
                     <div className="space-y-8">
                         <div className="space-y-6">
@@ -58,13 +57,12 @@ export function Hero() {
                                 </div>
                             </div>
                         </div>
-
                         <div className="flex flex-col sm:flex-row items-start gap-4">
                             <ButtonLink href="#sections" size="md">
-                                Explore My Work
+                                My work
                             </ButtonLink>
                             <ButtonLink href="/services" variant="secondary" size="md">
-                                Work With Me
+                                Myself
                             </ButtonLink>
                         </div>
 
@@ -83,25 +81,6 @@ export function Hero() {
                     </div>
                 </div>
             </Container>
-
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
-                <a
-                    href="#sections"
-                    className="group flex flex-col items-center gap-2 text-(--color-text-muted) hover:text-(--color-accent-cyan) transition-colors"
-                >
-          <span className="text-xs font-mono uppercase tracking-wider">
-            Scroll
-          </span>
-                    <ArrowDown className="w-5 h-5 animate-bounce group-hover:text-(--color-accent-blue)"/>
-                </a>
-            </div>
-
-            <div className="absolute inset-0 -z-10 overflow-hidden">
-                <div
-                    className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-(--color-accent-violet) rounded-full blur-3xl opacity-10"/>
-                <div
-                    className="absolute top-1/2 right-1/3 w-48 h-48 bg-(--color-accent-cyan) rounded-full blur-3xl opacity-5"/>
-            </div>
         </section>
     );
 }

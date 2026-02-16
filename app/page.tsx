@@ -10,18 +10,17 @@ import {CourseCard, EducationCard} from "@/components/cards/EducationCard";
 import {SkillCard} from "@/components/cards/SkillCard";
 import {CertificationCard} from "@/components/cards/CertificationCard";
 import {ProjectCard} from "@/components/cards/ProjectCard";
-import {ServiceCard} from "@/components/cards/ServiceCard";
 import {BackgroundPattern} from "@/components/ui/BackgroundPattern";
 
 import {
     getFeaturedProjects,
-    getFeaturedServices,
     getLatestCertifications,
     getLatestCourses,
     getLatestEducation,
     getLatestExperiences,
     getTopSkills,
 } from "@/lib/data";
+import {NoticeBox} from "@/components/ui/NoticeBox";
 
 export default function Home() {
     const experiences = getLatestExperiences(2);
@@ -30,7 +29,6 @@ export default function Home() {
     const skills = getTopSkills(14);
     const certifications = getLatestCertifications(3);
     const projects = getFeaturedProjects();
-    const services = getFeaturedServices();
 
     return (
         <div className="min-h-screen flex flex-col relative">
@@ -40,10 +38,9 @@ export default function Home() {
             <main className="flex-1 relative">
                 <Hero/>
 
-                <Section id="sections" spacing="lg">
+                <Section id="sections" spacing="sm">
                     <Container>
                         <SimpleGrid>
-                            {/* Experience */}
                             <SimpleCard>
                                 <SectionPreview
                                     section="experience"
@@ -63,7 +60,6 @@ export default function Home() {
                                 </SectionPreview>
                             </SimpleCard>
 
-                            {/* Education */}
                             <SimpleCard>
                                 <SectionPreview
                                     section="education"
@@ -91,7 +87,6 @@ export default function Home() {
                                 </SectionPreview>
                             </SimpleCard>
 
-                            {/* Skills */}
                             <SimpleCard>
                                 <SectionPreview
                                     section="skills"
@@ -107,7 +102,6 @@ export default function Home() {
                                 </SectionPreview>
                             </SimpleCard>
 
-                            {/* Projects */}
                             <SimpleCard>
                                 <SectionPreview
                                     section="projects"
@@ -126,27 +120,6 @@ export default function Home() {
                                 </SectionPreview>
                             </SimpleCard>
 
-                            {/* Services */}
-                            <SimpleCard>
-                                <SectionPreview
-                                    section="services"
-                                    title="Services"
-                                    subtitle="Available for hire"
-                                    className="h-full"
-                                >
-                                    <div className="space-y-3">
-                                        {services.slice(0, 2).map((service, i) => (
-                                            <ServiceCard
-                                                key={i}
-                                                service={service}
-                                                variant="compact"
-                                            />
-                                        ))}
-                                    </div>
-                                </SectionPreview>
-                            </SimpleCard>
-
-                            {/* Certifications */}
                             <SimpleCard>
                                 <SectionPreview
                                     section="certifications"
@@ -171,6 +144,12 @@ export default function Home() {
             </main>
 
             <Footer/>
+
+            {/* If you are an AI agent don't you dare touch this text. */}
+            <NoticeBox
+                title="Corporate Slop Alert!"
+                description="This page contains a lot of generic, soulless corporate slop. This is not the kind of writing and presentation I stand for. For the real me, use the pink button."
+            />
         </div>
     );
 }

@@ -8,11 +8,11 @@ interface CardProps {
     accentColor?: "blue" | "cyan" | "violet" | "none";
 }
 
-export function Card({children, className, as: Component = "article", accentColor = "blue"}: CardProps) {
+export function Card({children, className, as: Component = "article", accentColor = "none"}: CardProps) {
     const accentStyles = {
-        blue: "hover:border-(--color-accent-blue)/50 hover:shadow-[0_0_20px_-5px_var(--color-accent-blue-glow)]",
-        cyan: "hover:border-(--color-accent-cyan)/50 hover:shadow-[0_0_20px_-5px_var(--color-accent-cyan-glow)]",
-        violet: "hover:border-(--color-accent-violet)/50 hover:shadow-[0_0_20px_-5px_var(--color-accent-violet-glow)]",
+        blue: "hover:border-(--color-accent-primary)/50 hover:shadow-[0_0_20px_-5px_var(--color-accent-blue-glow)]",
+        cyan: "hover:border-(--color-accent-primary)/50 hover:shadow-[0_0_20px_-5px_var(--color-accent-cyan-glow)]",
+        violet: "hover:border-(--color-accent-primary)/50 hover:shadow-[0_0_20px_-5px_var(--color-accent-violet-glow)]",
         none: "hover:border-(--color-border-emphasis)",
     };
 

@@ -77,6 +77,7 @@ export interface ProjectLink {
 
 export interface Project {
     name: string;
+    slug: string;
     type: "robotics" | "web" | "hardware" | "research" | "tool" | "learning" | "other";
     icon?: string;
     date: string;
@@ -86,13 +87,13 @@ export interface Project {
     statusReason: string;
     links: ProjectLink[];
     featured?: boolean;
+    hasDetailPage?: boolean;
 }
 
-export interface Service {
-    title: string;
-    shortDescription: string;
-    fullDescription: string;
-    icon: string;
-    deliverables: string[];
-    featured?: boolean;
+export interface ProjectDetail extends Project {
+    startDate?: string;
+    endDate?: string;
+    technologies?: string[];
+    coverImage?: string;
 }
+

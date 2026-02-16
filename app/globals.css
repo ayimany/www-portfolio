@@ -2,57 +2,57 @@
 @import "../design/guidelines/tokens.css";
 
 @theme inline {
-  /* Colors */
-  --color-background: var(--color-bg-primary);
-  --color-foreground: var(--color-text-primary);
+    /* Colors */
+    --color-background: var(--color-bg-primary);
+    --color-foreground: var(--color-text-primary);
 
-  /* Fonts */
-  --font-display: var(--font-display);
-  --font-body: var(--font-body);
-  --font-mono: var(--font-mono);
-  --font-sans: var(--font-body);
+    /* Fonts */
+    --font-display: var(--font-display);
+    --font-body: var(--font-body);
+    --font-mono: var(--font-mono);
+    --font-sans: var(--font-body);
 }
 
 /* Base styles */
 body {
-  background: var(--color-bg-primary);
-  color: var(--color-text-primary);
-  font-family: var(--font-body);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* Display font for headings */
 .font-display {
-  font-family: var(--font-display);
+    font-family: var(--font-display);
 }
 
 /* Mono font for code elements */
 .font-mono {
-  font-family: var(--font-mono);
+    font-family: var(--font-mono);
 }
 
 /* Smooth scrolling */
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* Selection styling */
 ::selection {
-  background-color: var(--color-accent-blue-glow);
-  color: var(--color-text-primary);
+    background-color: var(--color-accent-primary);
+    color: var(--color-text-inverse);
 }
 
 /* Link styles */
 a:not([class]) {
-  color: var(--color-accent-blue);
-  text-decoration: none;
-  transition: color var(--duration-fast) var(--ease-default);
+    color: var(--color-text-primary);
+    text-decoration: underline;
+    text-decoration-color: var(--color-border-emphasis);
+    transition: all var(--duration-fast) var(--ease-default);
 }
 
 a:not([class]):hover {
-  color: var(--color-accent-cyan);
-  text-decoration: underline;
-  text-decoration-color: var(--color-accent-cyan);
-  text-underline-offset: 2px;
+    color: var(--color-accent-primary);
+    text-decoration-color: var(--color-accent-primary);
+    text-underline-offset: 2px;
 }

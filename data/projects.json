@@ -1,6 +1,7 @@
 [
   {
     "name": "Mimic",
+    "slug": "mimic",
     "type": "robotics",
     "date": null,
     "description": "(Teaser) Be in 2 or more places at the same time.",
@@ -12,6 +13,7 @@
   },
   {
     "name": "Ignis",
+    "slug": "ignis",
     "type": "tool",
     "date": null,
     "description": "A prototyping language for quick and cheap process simulation on the spot.",
@@ -23,6 +25,7 @@
   },
   {
     "name": "Chronos",
+    "slug": "chronos",
     "type": "tool",
     "date": "Jan 2026",
     "description": "A tool to mass-edit, orchestrate and parse calendar events.",
@@ -39,6 +42,7 @@
   },
   {
     "name": "Scratchpost",
+    "slug": "scratchpost",
     "type": "tool",
     "date": "Jan 2026",
     "description": "A tool to facilitate extracting slice data from Prusa Slicer.",
@@ -55,18 +59,19 @@
   },
   {
     "name": "Calmiq",
+    "slug": "calmiq",
     "type": "research",
     "date": "Oct 2025",
     "description": "An IoT device capable of measuring a person's approximate stress levels.",
     "url": null,
     "status": "in-restoration",
     "statusReason": "Actively maintained and accepting contributions",
-    "links": [
-    ],
+    "links": [],
     "featured": false
   },
   {
     "name": "Botzilla",
+    "slug": "botzilla",
     "type": "robotics",
     "date": "Jan 2025",
     "description": "A robot for the FRC 2025 season, made in collaboration with 6 other teammates",
@@ -83,6 +88,7 @@
   },
   {
     "name": "Robot in 3 Days",
+    "slug": "ri3d-2025",
     "type": "robotics",
     "date": "Jan 2025",
     "description": "A robot for the FRC 2025 season made in 3 days. The code for this entry is not complete",
@@ -99,9 +105,10 @@
   },
   {
     "name": "Playbot Carti - Acoustic Version",
+    "slug": "playbot-carti-acoustic",
     "type": "robotics",
     "date": "Mar 2024",
-    "description": "A complete rewrite of Playbot Carti with improved performance. Written by myself.",
+    "description": "A complete rewrite of Playbot Carti with improved performance.",
     "url": "https://github.com/TecDroid-3354/crescendo-2024-acoustic-version",
     "status": "archived",
     "statusReason": "This FRC season is over.",
@@ -115,9 +122,10 @@
   },
   {
     "name": "Playbot Carti",
+    "slug": "playbot-carti",
     "type": "robotics",
     "date": "Jan 2024",
-    "description": "A robot made to participate in the 2024 FRC season \"Crescendo\". Written by myself.",
+    "description": "A robot made to participate in the 2024 FRC season \"Crescendo\".",
     "url": "https://github.com/TecDroid-3354/crescendo-2024",
     "status": "archived",
     "statusReason": "This FRC season is over.",
@@ -131,6 +139,7 @@
   },
   {
     "name": "Elbot John, I think?",
+    "slug": "elbot-john",
     "type": "robotics",
     "date": "Jan 2023",
     "description": "A robot made to participate in the 2023 FRC season \"Charged Up\". Written alongside two mentors.",
@@ -147,18 +156,19 @@
   },
   {
     "name": "Nox",
+    "slug": "nox",
     "type": "tool",
     "date": "Jan 2024",
     "description": "An prototype programming language aimed at solving complex problems with as little code as possible.",
     "url": null,
     "status": "erased",
     "statusReason": "Nox has a new successor named Ignis.",
-    "links": [
-    ],
+    "links": [],
     "featured": false
   },
   {
     "name": "timelib",
+    "slug": "timelib",
     "type": "tool",
     "date": "Oct 2022",
     "description": "A custom C++ library to handle precise time calculations for robotics applications.",
@@ -170,6 +180,7 @@
   },
   {
     "name": "Arsenal",
+    "slug": "arsenal",
     "type": "learning",
     "date": "Aug 2022",
     "description": "A more serious Minecraft mod that added long range weapons to the game using vector math.",
@@ -181,6 +192,7 @@
   },
   {
     "name": "Pigstones",
+    "slug": "pigstones",
     "type": "learning",
     "date": "May 2022",
     "description": "A silly Minecraft mod that served as my introduction to programming.",
