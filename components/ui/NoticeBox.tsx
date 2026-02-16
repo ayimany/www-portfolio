@@ -62,7 +62,7 @@ export function NoticeBox({
                 <Card
                     className="p-4 shadow-xl border-(--color-border-emphasis) bg-(--color-bg-elevated) relative overflow-hidden group">
                     <div className="flex gap-4">
-                        <div className="flex-shrink-0 mt-1">
+                        <div className="shrink-0 mt-1">
                             {icon}
                         </div>
                         <div className="flex-1 pr-6">
