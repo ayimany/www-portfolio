@@ -1,7 +1,7 @@
 "use client";
 
 import React, {useEffect, useState} from "react";
-import {Check, Info, X} from "lucide-react";
+import {Check, Info} from "lucide-react";
 import {Card} from "./Card";
 
 interface NoticeBoxProps {
@@ -73,13 +73,6 @@ export function NoticeBox({
                                 {description}
                             </p>
                         </div>
-                        <button
-                            onClick={handleDismiss}
-                            className="absolute top-2 right-2 p-1 rounded-md text-(--color-text-muted) hover:text-foreground hover:bg-(--color-bg-tertiary) transition-colors cursor-pointer"
-                            aria-label="Dismiss"
-                        >
-                            <X size={16}/>
-                        </button>
                     </div>
                     <div className="mt-4 flex justify-end gap-4">
                         <button
